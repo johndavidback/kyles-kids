@@ -23,6 +23,7 @@
         FB.Event.subscribe('auth.authResponseChange', function(response) {
             if(response.status === 'connected') {
                 // They are connected.
+                login_user();
             } else if (response.status === 'not_authorized') {
                 // They are not authorized the app, but they are logged into FB
             } else {
