@@ -32,6 +32,13 @@
         });
     };
 
+    var login_user = function() {
+        // Fetch their FB info
+        FB.api('/me', function(response) {
+            console.log(response);
+        });
+    };
+
 (function(d){
    var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
    if (d.getElementById(id)) {return;}
