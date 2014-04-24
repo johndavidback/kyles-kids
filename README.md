@@ -1,7 +1,6 @@
 Kyles Kids
 ==========
-
-The source code for kyles-kids.com
+The source code for [kyles-kids.com](https://kyles-kids.com "You're going to love this application.")
 
 What is it?
 -----------
